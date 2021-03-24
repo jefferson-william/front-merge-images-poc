@@ -1,13 +1,6 @@
-# Create Vanilla JS App 🌴🌴🌴
+# Front Merge Images
 
-# A very simple vanilla js boilerplate
-
-- Includes webpack HMR
-- Webpack 4
-- Es6 / Babel
-- Webpack CSS loader / Style loader
-
-Please keep in mind, This is a helper for me to tinker with ideas and start projects from - I've tried to keep it as clean as possible. Add your own packages to suit your own workflow. The one thing I've ommited is `package-lock.json` generation. But you can add this back in by removing `.npmrc` before running `npm i`
+![PoC about merge images via frontend](https://user-images.githubusercontent.com/2935122/112248711-29f4da80-8c35-11eb-8fca-ba6444ef2d39.gif)
 
 ### First
 
@@ -25,7 +18,8 @@ It's possible to use a different port by specifying this first like so:
 
 `yarn build` or `npm run build`
 
-### Ways you may add to this
+### References
 
-- Add jsx and react - Or just use create react app instead!
-- Add a .env for project specific environment values
+- https://webplatform.github.io/docs/concepts/programming/drawing_images_onto_canvas/
+- https://www.tutorialspoint.com/combining-multiple-images-into-a-single-one-using-javascript
+- https://stackoverflow.com/a/15620872

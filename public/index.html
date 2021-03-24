@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Front Merge Images</title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://unpkg.com/regenerator-runtime@0.13.1/runtime.js"></script>
+    <script src="https://unpkg.com/merge-images"></script>
+    <script src="bundle.js"></script>
+    <style>
+      canvas {
+        background-color: #aaa;
+      }
+      canvas,
+      img {
+        margin: 8px;
+        border: 1px solid #aaa;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <span></span>
+      <br />
+      <br />
+      <input type="file" name="file[0]" />
+      <br />
+      <br />
+      <input type="file" name="file[1]" disabled />
+      <br />
+      <br />
+      <canvas></canvas>
+      <br />
+      <br />
+      <button type="submit">MERGE</button>
+      <br />
+      <br />
+      <a href="" download="image.jpg">DOWNLOAD</a>
+      <br />
+      <br />
+      <div></div>
+    </form>
+  </body>
+</html>
